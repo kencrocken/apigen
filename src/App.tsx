@@ -1,10 +1,4 @@
-import React, {
-  ReactNode,
-  useCallback,
-  useEffect,
-  useMemo,
-  useState,
-} from 'react';
+import React, { useCallback, useEffect, useMemo, useState } from 'react';
 import { getCoreRowModel, useReactTable } from '@tanstack/react-table';
 
 import { useUsers } from './data/users';

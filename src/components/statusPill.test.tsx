@@ -1,6 +1,6 @@
+import React from 'react';
 import { render, screen } from '@testing-library/react';
 import { StatusPill } from './statusPill';
-import React from 'react';
 
 describe('StatusPill', () => {
   test('should render the StatusPill component with "Active" status', () => {

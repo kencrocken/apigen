@@ -10,6 +10,15 @@ export type ColumnDefProps = {
   handleEditUser: (userDetail: User) => void;
 };
 
+/**
+ * Returns an array of column definitions for a user table.
+ * @description
+ * Allows for cleaner code, separating a possible long array of columns from the main component.
+ *
+ * @param handleDeleteUser - The function to handle user deletion.
+ * @param handleEditUser - The function to handle user editing.
+ * @returns An array of column definitions.
+ */
 export const getUserColumnDefinitions = ({
   handleDeleteUser,
   handleEditUser,
